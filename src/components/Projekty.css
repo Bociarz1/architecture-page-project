@@ -1,0 +1,49 @@
+.projects .category {
+  font-size: 20px;
+  padding-left: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.projects .category span {
+  display: block;
+  margin: 4px auto;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.projects .category span:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  color: #37abc8;
+}
+
+.projects .project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  max-width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 181px;
+}
+
+.projects .project img {
+  -webkit-transition: .3s;
+  transition: .3s;
+  border-radius: 10px;
+  -webkit-box-shadow: 8px 8px 24px 0px #42445a;
+  box-shadow: 8px 8px 24px 0px #42445a;
+}
+
+.projects .project img:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+}
+/*# sourceMappingURL=Projekty.css.map */

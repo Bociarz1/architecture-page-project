@@ -1,0 +1,37 @@
+.offer {
+    .img {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        min-width: 100%;
+        min-height: 40vh;
+        background-image: url('../images/img-offer.jpg');
+        background-position: center ;
+        background-size: cover;
+        background-attachment: fixed;
+        margin-bottom: 30px;
+        overflow: hidden;
+        p {
+            transform-origin: translate(-50%, -50%);
+            text-align: center;
+            width: 80%;
+            top: 50%;
+            color: white;
+            font-size: 60px;
+            font-weight: bold;
+            text-shadow: 2.5px 2px black;
+            padding: 0;
+            margin: 0 auto;
+        }
+    }
+    p {
+        text-align: center;
+        top: 40%;
+        font-size: 30px;
+        font-weight: bold;
+        width: 90%;
+        padding: 0 30px 50px 30px;
+        margin-left: 60px;
+        
+    }
+}

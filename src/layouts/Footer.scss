@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+footer {
+    background-color: #37abc8;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    color: white;
+    padding: 15px;
+    h3 {
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+    p {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+    .contact {
+       display: flex;
+       flex-wrap: wrap;
+       flex-direction: column;
+       margin-left: 15px;
+       min-width: 200px;
+       flex-wrap: nowrap;
+       
+    }
+    .write {
+        display: flex;
+        flex-direction: column;
+        input {
+            min-width: 60%;
+        }
+        input.message {
+            height: 40px;
+            margin-bottom: 10px;
+        }
+        label.labelCheckbox {
+            display: flex;
+            flex-wrap: nowrap;
+            input {
+                min-width: 15px;
+                margin-top: 5px;
+            }
+        }
+        button {
+            width: 100px;
+            border: 2px solid gray;
+            border-radius: 10px;
+            color: #37abc8;
+            background-color: white;
+            font-weight: bold;
+            padding: 10px;
+            transition: .3s;
+        }
+        button:hover {
+            transform:scale(1.1) ;
+            cursor: pointer;
+        }
+     }
+     .tutorial {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        a {
+            text-decoration: none;
+            color: white;
+        }
+     }
+}
