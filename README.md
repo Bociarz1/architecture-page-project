@@ -1,4 +1,4 @@
-# Github-pages ref:
+# Github-pages link:
 https://bociarz1.github.io/architecture-page-project/
 
 # Description:
